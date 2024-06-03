@@ -1,0 +1,22 @@
+{
+  "students": [
+    {
+      "id": 0,
+      "fio": "RandomStudent0",
+      "group": "group 10",
+      "phoneNumber": "+7"
+  },
+  {
+      "id": 1,
+      "fio": "RandomStudent1",
+      "group": "group 20",
+      "phoneNumber": "+8"
+  },
+  {
+      "id": 2,
+      "fio": "RandomStudent2",
+      "group": "AP 101",
+      "phoneNumber": "+7"
+  }
+  ]
+}

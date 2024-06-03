@@ -1,0 +1,22 @@
+<h1 mat-dialog-title>Add student</h1>
+<div mat-dialog-content style="display: inline; padding: 0px; margin: auto;">
+
+  <mat-form-field class="full-width-input">
+    <input matInput type="text" placeholder="ФИО студента"
+      [(ngModel)]="editingStudent.fio" required>
+  </mat-form-field>
+  <mat-form-field class="full-width-input">
+    <input matInput type="text" placeholder="группа"
+      [(ngModel)]="editingStudent.group" required>
+  </mat-form-field>
+  <mat-form-field class="full-width-input">
+    <input matInput type="text" placeholder="номер телефона"
+      [(ngModel)]="editingStudent.phoneNumber" required>
+  </mat-form-field>
+
+</div>
+<div mat-dialog-actions>
+  <button mat-raised-button (click)="onNoClick()">Cancel</button>
+  <button class="right-align" mat-raised-button color="primary"
+    [mat-dialog-close]="editingStudent">Add</button>
+</div>

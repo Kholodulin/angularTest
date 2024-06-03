@@ -1,0 +1,14 @@
+<form id="accesspanel" action="">
+  <h1 id="litheader">Authorization</h1>
+  <div class="inset">
+    <p>
+      <input type="text" name="username" [(ngModel)]="username" id="email" placeholder="Username" required>
+    </p>
+    <p>
+      <input type="password" name="password" [(ngModel)]="password" id="password" placeholder="Password" required>
+    </p>
+  </div>
+  <p class="p-container">
+    <input type="submit" name="Login" id="go" value="Login" (click)="login()">
+  </p>
+</form>
